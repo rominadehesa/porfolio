@@ -30,4 +30,16 @@ export default {
 </script>
 
 <style>
+  #app {
+    animation-name: app;
+    animation-duration: 3s;
+  }
+  @keyframes app{
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 </style>

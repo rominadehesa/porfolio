@@ -61,7 +61,7 @@ export default {
   name: 'Works',
   data() {
      return {
-      show: true,
+      show: false,
      }
   }
 }
