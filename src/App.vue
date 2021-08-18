@@ -1,0 +1,33 @@
+<template>
+  <div id="app">
+    <div class="container">
+      <div class="row">
+        <Header/>
+      </div>
+      <div class="row">
+        <Works/>
+      </div>
+      <div class="row">
+        <Footer/>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import Header from './components/Header.vue'
+import Works from './components/Works.vue'
+import Footer from './components/Footer.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Header,
+    Works,
+    Footer
+  }
+}
+</script>
+
+<style>
+</style>
