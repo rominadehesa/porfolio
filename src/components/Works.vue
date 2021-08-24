@@ -79,14 +79,14 @@ export default {
   .nav li {
       list-style: none;
       text-align: center;
-      color: #553C8B;
+      color: #3B5360;
     }
   h1{
     font-family: 'Major Mono Display', monospace;
     font-size: 40px;
   }
   a{
-    background-color: #553C8B;
+    background-color: #3B5360;
     color: white;
     margin: 2px;
   }
@@ -94,10 +94,9 @@ export default {
     margin: 5px 5px;
     border: none;
     text-align: center;
+    background-color: transparent;
   }
-  .card-header {
-    background-color: white;
-  }
+  
   .card-header img{
     height: 50px;
     width: auto;

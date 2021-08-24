@@ -38,10 +38,10 @@ export default {
 
 <style scope>
 .footer {
-  background-color: #553C8B;
+  background-color: #3B5360;
   display: flex;
   justify-content: center;
-  margin-bottom: 10%;
+  margin: 10px;
 }
 .footer a svg {
   width: 20px;
