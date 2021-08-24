@@ -1,8 +1,8 @@
 <template>
     <div class="col-12 nav">
-      <li v-on:click="show = !show">Works</li>
+      <li v-on:click="show = !show"> Works </li>
     </div>
-    <div class="col-12 body" v-if="show">
+    <div class="col-12 body" v-if="!show">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-lg-6">
@@ -69,7 +69,7 @@ export default {
 
 <style>   
   .nav {
-      background-color: transparent;/*#a2aadd*/
+      background-color: #afafaf0e;
       display: flex;
       justify-content: center;
       font-family: 'Bebas Neue', cursive; 
@@ -78,17 +78,11 @@ export default {
     }
   .nav li {
       list-style: none;
-      text-align: center;
       color: #3B5360;
     }
   h1{
     font-family: 'Major Mono Display', monospace;
     font-size: 40px;
-  }
-  a{
-    background-color: #3B5360;
-    color: white;
-    margin: 2px;
   }
   .card {
     margin: 5px 5px;
@@ -96,7 +90,9 @@ export default {
     text-align: center;
     background-color: transparent;
   }
-  
+  .card-header {
+    background-color: transparent;
+  }
   .card-header img{
     height: 50px;
     width: auto;
@@ -110,8 +106,5 @@ export default {
   }
   .card a:hover {
     background-color: #eaeeed; 
-  }
-  .body {
-    margin-bottom: 50px;
   }
 </style>

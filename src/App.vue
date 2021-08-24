@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div class="container">
-      
       <div class="row">
         <Header/>
       </div>
@@ -34,16 +33,5 @@ export default {
   #app {
   padding-top: 5%;
   padding-bottom: 5%;
-  animation-name: app;
-  animation-duration: 3s;
-  }
-
-  @keyframes app{
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
   }
 </style>
