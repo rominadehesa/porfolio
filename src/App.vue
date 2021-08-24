@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div class="container">
+      
       <div class="row">
         <Header/>
       </div>
@@ -31,6 +32,8 @@ export default {
 
 <style>
   #app {
+    background: rgb(232,234,230);
+background: linear-gradient(90deg, rgba(232,234,230,1) 0%, rgba(205,208,203,0.6250875350140056) 87%);
     animation-name: app;
     animation-duration: 3s;
   }

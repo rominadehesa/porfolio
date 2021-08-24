@@ -69,7 +69,7 @@ export default {
 
 <style>   
   .nav {
-      background-color: #a2aadd;
+      background-color: transparent;/*#a2aadd*/
       display: flex;
       justify-content: center;
       font-family: 'Bebas Neue', cursive; 
@@ -111,5 +111,8 @@ export default {
   }
   .card a:hover {
     background-color: #eaeeed; 
+  }
+  .body {
+    margin-bottom: 50px;
   }
 </style>

@@ -41,6 +41,7 @@ export default {
   background-color: #553C8B;
   display: flex;
   justify-content: center;
+  margin-bottom: 10%;
 }
 .footer a svg {
   width: 20px;
