@@ -104,10 +104,9 @@ export default {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 100px) {
   #header {
- 
   text-align:center;
-}
+  }
 }
 </style>
