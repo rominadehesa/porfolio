@@ -103,4 +103,11 @@ export default {
     opacity: 1;
   }
 }
+
+@media (min-width: 576px) {
+  #header {
+ 
+  text-align:center;
+}
+}
 </style>
